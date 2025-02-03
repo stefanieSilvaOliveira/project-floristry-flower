@@ -393,7 +393,7 @@ export const ContainerS = styled.div`
         text-align: center;
         width: 600px;
         font-weight: 400;
-        font-size: 16px;
+        font-size: 15px;
         margin-top: 150px;
         margin-left:80px;
         color: #000;
@@ -490,6 +490,7 @@ export const ContainerM = styled.div`
           img {
           width: 80px;
           height: 80px;
+          margin-left: 20px;
 
           }
 
