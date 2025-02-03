@@ -44,7 +44,7 @@ import 'swiper/css/scrollbar';
       slidesPerView={1}
       breakpoints={{
         768: {
-          slidesPerView: 2,
+          slidesPerView: 1,
           spaceBetween: 20,
         }
       }}
