@@ -303,35 +303,59 @@ export const CardLeft = styled.div`
          transition: box-shadow 0.3s ease;
 
          .card-content{
-          margin-left: 50px;
+          position: relative; 
+          width: 20%;
+          height: 20%;
+          margin-top: 50px;
+          margin-right: 20px;
+          margin-bottom: 30px;
+          cursor: pointer;
+          transition: box-shadow 0.3s ease;
          }
+      
 
          .button-sale{
           position: absolute;
-          width: 60px;
-          height: 30px;
-          margin-top: 20px;
-          border-radius: 20px;
-          border: none;
-          font-size: 12px;
-          font-weight: 700;
-          color: #FFF;
-          background-color: #CD0000;
+    top: 10px; /* Alinha o botão no topo */
+    right: 10px; /* Alinha o botão à direita */
+    width: 60px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    font-size: 12px;
+    font-weight: 700;
+    color: #FFF;
+    background-color: #CD0000;
          }
          
         h1{
           color: #292929;
           font-weight: 300;
+          width: 500px;
+          margin-left: -100px;
           text-align: center;
           font-size: 13px;
         }
 
         h2{
           text-align: center;
+          width: 500px;
+          margin-left: -100px;
           font-size: 15px;
           font-weight: 400;
           margin-top: 10px;
           color: #2c2c2c;
+        }
+
+        .button-section{
+          margin-left: 100px;
+          margin-top: 20px;
+          width: 100px;
+          height: 40px;
+          font-size: 14px;
+          font-weight: 400;
+          background-color: #9e0232;
+          border-radius: 20px;
         }
         
         
@@ -352,16 +376,17 @@ export const CardLeft = styled.div`
            font-size: 11px; /* Ajuste de fonte em telas pequenas */
            }
     
-           h2 {
-            font-size: 13px;
+             h2 {
+              font-size: 13px;
               }
-         .button-sale {
-         width: 50px;
-         height: 25px;
-         margin-right: 20px;
-         font-size: 10px;
-         animation: blink 1s infinite
-          }
+         
+              .button-sale {
+              width: 50px;
+              height: 25px;
+              margin-left: 20px;
+              font-size: 10px;
+              animation: blink 1s infinite
+             }
 
           @keyframes blink {
     0% {
