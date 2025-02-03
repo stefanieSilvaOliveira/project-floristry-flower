@@ -1,4 +1,4 @@
-import React, {useEffect}from "react";
+import React from "react";
 import 'swiper/css';
 
 import {CarroselConteiner} from "../style.js";
@@ -11,7 +11,7 @@ import imageMargaridas from '../assets/margaridas-brancas.png';
 
 import { Navigation, Pagination, A11y } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import ScrollReveal from "scrollreveal";
+
 
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -20,18 +20,6 @@ import 'swiper/css/scrollbar';
 
  function Slider(){
 
-  useEffect(() => {
-    // Configurações do ScrollReveal
-    ScrollReveal().reveal('.slideContent', {
-      delay: 200,
-      duration: 1000,
-      origin: 'left',
-      distance: '50px',
-      opacity: 0,
-      scale: 0.9,
-      interval: 200,
-    });
-  }, []);
   
   return (
     

@@ -57,10 +57,6 @@ function MenuFooter(){
                <li>My story</li>
               </ul> 
               </div>
-
-              
-                      
-
              
         </ContainerM>
     )

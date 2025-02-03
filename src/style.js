@@ -302,6 +302,10 @@ export const CardLeft = styled.div`
          cursor: pointer;
          transition: box-shadow 0.3s ease;
 
+         .card-content{
+          margin-left: 50px;
+         }
+
          .button-sale{
           position: absolute;
           width: 60px;
@@ -335,19 +339,6 @@ export const CardLeft = styled.div`
           width: 250px;
           margin-left: 20px;
         }
-
-       .button-section{
-        width: 100px;
-        height: 35px;
-        margin-left: 100px;
-        border: none;
-        border-radius:10px;
-        margin-top: 20px;
-        font-size: 13px;
-        font-weight:700;
-        font-family: 'Personalizada';
-        background-color: #9E0232;
-       }    
        
     @media (max-width: 768px) {
             width: 100%; 
