@@ -198,11 +198,12 @@ img{
 export const CarroselConteiner = styled.div`
           
           display: flex;
-          justify-content: space-between;
+          justify-content: center;
           align-items: center;
           width: 100%;
           height: 50%;
           background:  #F1DFDD;
+          padding: 0 20px; 
 
 
           .slideContent{
@@ -220,15 +221,15 @@ export const CarroselConteiner = styled.div`
             font-family: "Roboto Slab";
             font-weight: 400;
             font-size: 40px;
-            width: 400px;
-            margin-left: 120px;
+            width: 600px;
+            margin-left: 100px;
             cursor: pointer;
             color: #000;
           }
 
           p{
             text-align: center;
-            margin-left: -500px;
+            margin-left: -300px;
             margin-top: 20px;
             font-weight: 300;
             font-size: 16px;
@@ -240,7 +241,7 @@ export const CarroselConteiner = styled.div`
           height: 43px;
           width: 130px;
           align-items: center;
-          margin-left: -350px;
+          margin-left: -200px;
           background-color:  #F57F17;
           color: #FFF;
           font-weight: 500;
@@ -332,7 +333,7 @@ export const CardLeft = styled.div`
         
         img{
           width: 250px;
-          margin-left: 15px;
+          margin-left: 20px;
         }
 
        .button-section{

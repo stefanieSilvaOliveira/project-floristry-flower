@@ -18,8 +18,6 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
-
-
  function Slider(){
 
   useEffect(() => {
@@ -40,7 +38,7 @@ import 'swiper/css/scrollbar';
     <CarroselConteiner>  
     <Swiper
       modules={[Navigation, Pagination, A11y]}
-      spaceBetween={10}
+      spaceBetween={50}
       slidesPerView={1}
       breakpoints={{
         768: {
