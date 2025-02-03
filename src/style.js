@@ -353,7 +353,7 @@ export const CardLeft = styled.div`
             margin-bottom: -50px;
     
             img{
-            margin-left: 100px;
+            margin-left: 50px;
            }
 
            h1 {
@@ -366,6 +366,7 @@ export const CardLeft = styled.div`
          .button-sale {
          width: 50px;
          height: 25px;
+         margin-right: 20px;
          font-size: 10px;
          animation: blink 1s infinite
           }
@@ -516,35 +517,35 @@ export const ContainerI = styled.div`
 
        
 
- .image1f {
-  background: rgba(255, 255, 255, 0.3); /* Cor branca semitransparente */
-  backdrop-filter: blur(10px); /* Aplica o desfoque no fundo */
-  width: 300px; 
-  height: 200px; 
-  display: flex;
-  margin-top: 100px;
-  margin-bottom: 20px;
-  justify-content: center; /* Alinha a imagem horizontalmente */
-  align-items: center; /* Alinha a imagem verticalmente */
-  border-radius: 10px; /* Bordas arredondadas mais suaves */
-  padding: 10px; /* Adiciona um pouco de espaçamento entre a borda e a imagem */
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil para dar profundidade */
-  overflow: hidden; /* Impede que a imagem ultrapasse os limites do card */
-}
+        .image1f {
+        background: rgba(255, 255, 255, 0.3); /* Cor branca semitransparente */
+        backdrop-filter: blur(10px); /* Aplica o desfoque no fundo */
+        width: 300px; 
+        height: 200px; 
+        display: flex;
+        margin-top: 100px;
+        margin-bottom: 20px;
+        justify-content: center; /* Alinha a imagem horizontalmente */
+        align-items: center; /* Alinha a imagem verticalmente */
+        border-radius: 10px; /* Bordas arredondadas mais suaves */
+        padding: 10px; /* Adiciona um pouco de espaçamento entre a borda e a imagem */
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil para dar profundidade */
+        overflow: hidden; /* Impede que a imagem ultrapasse os limites do card */
+        }
 
-.image1f img {
-  margin-bottom: 10px; /* Espaçamento entre a imagem e o título */
-}
+       .image1f img {
+        margin-bottom: 10px; /* Espaçamento entre a imagem e o título */
+        }
 
-h1 {
-  text-align: center;
-  font-size: 18px;
-  font-weight: 300;
-}
+       h1 {
+       text-align: center;
+       font-size: 18px;
+       font-weight: 300;
+       }
 
-img{
-  margin-left: 10px;
-  width: 150px;
+      img{
+      margin-left: 10px;
+      width: 150px;
 }
 
 @media (max-width: 768px) {
